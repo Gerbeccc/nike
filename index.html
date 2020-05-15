@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="img/favicon-32x32" sizes="32x32" href="img/favicon-32x32.png">
+		<title>Nike - Just Do It</title>
+	</head>
+	
+	<body>	<div class="waveWrapper waveAnimation">
+  <div class="waveWrapperInner bgTop">
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+  </div>
+</div>
+		<div class="top">
+			<h1 style="margin-left:6em; margin-top:7em; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">SVG</b></h1>
+					
+		</div>
+		<canvas id="myCanvas" width="550" height="350" style="margin-top: 5em">
+		<script>
+				var c = document.getElementById("myCanvas");
+				var ctx = c.getContext("2d");
+				ctx.moveTo(500,200);
+				ctx.lineTo(200,300);
+				ctx.bezierCurveTo(110,330,50,275,160,170);
+				ctx.bezierCurveTo(135,200,140,255,190,255);
+				ctx.lineTo(500,200);
+				ctx.fillStyle="white";
+				ctx.fill();
+				ctx.strokeStyle="black";
+				ctx.stroke();
+			</script>
+		</canvas>
+		<div class="svg">
+			<svg width="480px" height="288px" viewBox="-30 -10 200 200">
+				<path id="Selection" fill="black" stroke="white" stroke-width="1" d="
+					M 103.00,87.00
+					C 102.19,90.61 100.53,95.42 100.59,99.00
+					  100.65,102.41 102.09,106.27 104.39,108.79
+					  112.13,117.23 124.72,112.57 134.00,110.12
+					  134.00,110.12 191.00,95.12 191.00,95.12
+					  191.00,95.12 224.00,87.00 224.00,87.00
+					  220.13,90.00 215.46,91.36 211.00,93.28
+					  211.00,93.28 185.00,104.42 185.00,104.42
+					  185.00,104.42 136.00,125.01 136.00,125.01
+					  126.69,128.85 117.16,133.82 107.00,134.75
+					  104.64,135.07 100.30,135.09 98.00,134.75
+					  90.86,133.39 86.19,128.19 85.53,121.00
+					  84.49,109.80 94.75,93.83 103.00,87.00 Z" />
+		    </svg>
+	</div>
+	<img src="img/slikarShoeV3.png" alt="shoe" style="width: 400px; height: 225px; margin-left: 15px; margin-top: 15px; 
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+" 
+	draggable="false">
+			<div align="center">
+			<h1 style="margin-top: 14em; letter-spacing: 1px; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">BEZIER</h1>
+			</div>
+	<img src="img/justDoIt.png" alt="shoe" align="right" style="margin-right: 5em; margin-top: -3em; height: 288px; width:288px; 
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;	
+	position: fixed;
+	top: 0%;
+	left: 78%;"
+	draggable="false">
+			<h1 style="float: right; margin-top: 5em; margin-left: 1em; 
+				position: fixed;
+				top: 0%;
+				left: 80%;
+			">IMAGE</h1>
+
+	</body>
+	
+</html>
